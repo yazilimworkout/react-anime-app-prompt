@@ -1,11 +1,11 @@
 # YazilimWorkout | Anime
 
-Build an anime discovery site with Vite, React, and TypeScript. Do not return only a design or plan: set up the project, implement every page and interaction, then run a production build.
+Build an anime watching site with Vite, React, and TypeScript. Do not return only a design or plan: set up the project, implement every page and interaction, then run a production build.
 
 ## Setup order and completion gate
 
 1. From an empty project root, run `npx shadcn@latest init -t vite` to create a Vite app using React, TypeScript, and Tailwind CSS. When the CLI asks, choose the Vite template, Luma style, `mist` base color, and Tabler icons.
-2. From the project root, run `npm install react-router-dom @tanstack/react-query @tabler/icons-react`. Then add the required shadcn/ui components with `npx shadcn@latest add button card badge aspect-ratio input label select dropdown-menu navigation-menu sheet dialog skeleton scroll-area tooltip avatar spinner --yes`. If a command fails, resolve the error and add any missing components before building the app.
+2. From the project root, run `npm install react-router-dom @tanstack/react-query @tabler/icons-react motion`. Then add the required shadcn/ui components with `npx shadcn@latest add button card badge aspect-ratio input label select dropdown-menu navigation-menu sheet dialog skeleton scroll-area tooltip avatar spinner --yes`. If a command fails, resolve the error and add any missing components before building the app.
 3. Inspect `package.json`, `components.json`, and `src/components/ui/`. Merely listing packages in this prompt or README is not enough: dependencies must be installed, shadcn component files must exist, and the app must import and use them.
 4. After implementation, run `npm run build` and fix any errors. Never claim a command ran if it did not; report the main installed packages and actual build result briefly at the end.
 
@@ -61,12 +61,14 @@ The root `json-data.json` file is the single source of catalogue data. Validate 
 
 Render all 11 sections in the supplied order, with 102 card placements total. Every card must show artwork, title, score, and genre, with a title-based fallback if artwork fails. Follow the card layout and interaction rules below.
 
-- `ranked`: show a large, thin pink-outline rank number behind the poster card as in the reference. `grid`: six columns on desktop and fewer on narrow screens. `strip`: landscape cards; on desktop, hover/focus expands a card into a preview layered above its neighbors.
-- On desktop, hovering a card or focusing it with the keyboard opens an expanded preview with artwork and details: title, score, genres, format/duration, short synopsis, and shadcn `Button` actions. Layer the preview above neighboring cards without reflowing the shelf. Set up overflow and stacking so the preview is not clipped at screen edges and does not flicker while the pointer moves between the card and preview. Enable hover only for hover-capable desktop pointers, and expose the same preview on keyboard focus.
+- `ranked`: keep the reference-style large, thin pink-outline rank numbers 1–6 visible behind the Top 6 posters at all times. Hover must not hide, change, or duplicate these rank numbers. `grid`: six columns on desktop and fewer on narrow screens. `strip`: horizontal card shelves.
+- On a `strip` card, desktop hover or keyboard focus opens a wide landscape preview like the Netflix Suits reference: artwork fills the top, with a large title over a dark lower-left overlay. Below it, show the dataset episode name/number or available format, duration, score, and genres. Show a progress line and duration label only when real watch progress exists; never invent them. Include Play, add/remove from Saved, like, and More Info/expand icon actions in the bottom row. Do not implement this as a small tooltip, only an enlarged poster, or a short caption below the card.
+- Implement the preview with `motion/react` from the `motion` package. Control `isPreviewOpen` with `onHoverStart`/`onHoverEnd` on the shared card wrapper and keyboard focus/blur handlers. Render the preview as a `motion.div` inside `AnimatePresence`. Enter from `opacity: 0`, `y: 8`, `scale: 0.96` to `opacity: 1`, `y: 0`, `scale: 1` in a brief 180 ms ease-out; use a short fade-out on exit. Animate only opacity and transform. The preview itself must use shadcn `Card`, layer near its source above neighbors without reflowing the shelf, and stay open as the pointer moves from the source into the preview. Prevent overflow clipping and shift it inward near viewport edges. Do not add glow, neon, layout jumps, or long delays; respect reduced motion.
+- Keep Top 6 rank numbers visible in the normal card state; the hover preview must not cover, change, or duplicate them. Enable hover only for hover-capable desktop pointers and expose the same preview on keyboard focus. Do not imitate hover on touch devices; tapping a card opens its details in a shadcn `Dialog`.
 
 - Place the Frieren feature after `ranked-two` and the Spy × Family feature after `action`.
 - Load sections as the visitor scrolls, without large blank gaps. Show shadcn `Spinner` while loading. As cards first enter the scroll area, use a brief, subtle opacity/position transition to signal new content; avoid cascading stagger sequences and parallax. Keep interaction motion purposeful and short, animate only the properties needed, and do not use `transition: all`. Respect reduced-motion preferences and keep cards visible during fast scrolling.
-- Do not imitate hover on touch devices; tapping a card opens an accessible shadcn `Dialog` with its details and actions. For the temporary trailer state, use TanStack Query to request `https://example.com`; show a spinner while waiting, then say trailer data is not connected. Do not use a remote anime catalogue API.
+- Make the shadcn `Dialog` accessible to keyboard and screen-reader users. For the temporary trailer state, use TanStack Query to request `https://example.com`; show a spinner while waiting, then say trailer data is not connected. Do not use a remote anime catalogue API.
 
 ## Sign in and account
 
@@ -83,5 +85,3 @@ Build the `/signin` and `/signup` backgrounds from image URLs in the anime datas
 Create `README.md` and `READMEç.md`. Both must contain Turkish and English sections, with `Türkçe | English` links at the top that jump to the matching sections. Explain setup, run and build commands, stack, features, routes, and local account behavior.
 
 Run the production build and fix errors. Search, genre filtering, catalogue cards and dialog, scroll loading, sign-in, sign-up, account menu, and sign-out must work. Desktop and mobile layouts must have no horizontal overflow or empty catalogue sections.
-
-
