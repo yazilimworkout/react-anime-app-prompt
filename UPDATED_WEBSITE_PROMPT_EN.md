@@ -1,12 +1,42 @@
 # YazilimWorkout | Anime
 
-Build an anime discovery site with Vite, React, and TypeScript. Set up the project, implement the pages and interactions, then run a production build.
+Build an anime discovery site with Vite, React, and TypeScript. Do not return only a design or plan: set up the project, implement every page and interaction, then run a production build.
+
+## Setup order and completion gate
+
+1. From an empty project root, run `npx shadcn@latest init -t vite` to create a Vite app using React, TypeScript, and Tailwind CSS. When the CLI asks, choose the Vite template, Luma style, `mist` base color, and Tabler icons.
+2. From the project root, run `npm install react-router-dom @tanstack/react-query @tabler/icons-react`. Then add the required shadcn/ui components with `npx shadcn@latest add button card badge aspect-ratio input label select dropdown-menu navigation-menu sheet dialog skeleton scroll-area tooltip avatar spinner --yes`. If a command fails, resolve the error and add any missing components before building the app.
+3. Inspect `package.json`, `components.json`, and `src/components/ui/`. Merely listing packages in this prompt or README is not enough: dependencies must be installed, shadcn component files must exist, and the app must import and use them.
+4. After implementation, run `npm run build` and fix any errors. Never claim a command ran if it did not; report the main installed packages and actual build result briefly at the end.
 
 ## Stack and components
 
-- Start with the shadcn/ui CLI: `npx shadcn@latest init -t vite`. Use React, TypeScript, and Tailwind CSS.
-- Choose shadcn/ui Luma, the `mist` base color, and Tabler icons. Set `components.json` to `style: "base-luma"`, `baseColor: "mist"`, `iconLibrary: "tabler"`, `tsx: true`, with aliases `@/components`, `@/components/ui`, and `@/lib/utils`.
-- Add required components: `npx shadcn@latest add button card badge aspect-ratio input label select dropdown-menu navigation-menu sheet dialog alert alert-dialog skeleton separator scroll-area tooltip avatar spinner`. If needed, install Tabler with `npm install @tabler/icons-react`.
+- Create `components.json` with this valid structure and verify it before adding CLI components. Point the Vite and TypeScript `@/*` aliases to `src`:
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-luma",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/index.css",
+    "baseColor": "mist",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "tabler",
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  }
+}
+```
+- Add only the shadcn components used by the interface through the CLI; verify the component list against `package.json` and actual code imports.
 - Build the interface from shadcn/ui components. Use the shadcn `Card` base for anime and film cards; use `AspectRatio` for artwork, `Badge` for genre and score labels, and `Button` for actions. Do not let the default `Card` padding, radius, border, or surface styles dictate the reference design: apply project-specific Tailwind/CSS directly to `Card` or adjust the local `components/ui/card.tsx` styles while preserving shadcn `data-slot` attributes and accessible semantics. Do not create a parallel non-shadcn card primitive. Use `NavigationMenu` for navigation, `Sheet` for mobile navigation, `Select` for genre filtering, `Input` for search, `DropdownMenu` for account access, and `Dialog` for title details.
 - App-specific components may compose shadcn components. Do not create custom button, card, field, select, menu, or modal primitives. Use semantic HTML only for page structure, text, and images. Use only `@tabler/icons-react` for icons.
 - Use React Router for `/signin` and `/signup`. Serve data from `src/data/anime.ts`. Use TanStack Query only for the trailer placeholder loading state.
@@ -29,14 +59,14 @@ Keep the profile picker simple and full-screen, following the reference: a cente
 
 The root `json-data.json` file is the single source of catalogue data. Validate it first: it must contain 48 anime, 11 sections, and 2 feature banners; every section ID must match a catalogue item. Preserve titles, scores, artwork, genres, and ordering. Convert the data into strongly typed definitions in `src/data/anime.ts`, use that module in the app, and keep the conversion repeatable.
 
-Render all 11 sections in the supplied order, with 102 card placements total. Each anime/film card must show artwork, title, score, and genre. Show a title-based fallback if artwork fails. Combine the two references: `ranked` cards use portrait posters with artwork on top, a light information footer for title/score/genre, and a large pink-outline rank number behind the card. `strip` cards form wide landscape artwork shelves. Keep the same visual language and readable information hierarchy across other catalogue cards. Apply the reference dimensions, radius, surface, border, image crop, and hover styles directly to the `Card` root; adjust the local shadcn implementation when its defaults conflict. Compose each card from `Card`, `AspectRatio`, `Badge`, and `Button`.
+Render all 11 sections in the supplied order, with 102 card placements total. Every card must show artwork, title, score, and genre, with a title-based fallback if artwork fails. Follow the card layout and interaction rules below.
 
 - `ranked`: show a large, thin pink-outline rank number behind the poster card as in the reference. `grid`: six columns on desktop and fewer on narrow screens. `strip`: landscape cards; on desktop, hover/focus expands a card into a preview layered above its neighbors.
 - On desktop, hovering a card or focusing it with the keyboard opens an expanded preview with artwork and details: title, score, genres, format/duration, short synopsis, and shadcn `Button` actions. Layer the preview above neighboring cards without reflowing the shelf. Set up overflow and stacking so the preview is not clipped at screen edges and does not flicker while the pointer moves between the card and preview. Enable hover only for hover-capable desktop pointers, and expose the same preview on keyboard focus.
-- Do not imitate hover on touch devices. Tapping a card opens a shadcn `Dialog` with its details and actions. Make opening and closing the dialog accessible to keyboard and screen-reader users.
+
 - Place the Frieren feature after `ranked-two` and the Spy × Family feature after `action`.
 - Load sections as the visitor scrolls, without large blank gaps. Show shadcn `Spinner` while loading. As cards first enter the scroll area, use a brief, subtle opacity/position transition to signal new content; avoid cascading stagger sequences and parallax. Keep interaction motion purposeful and short, animate only the properties needed, and do not use `transition: all`. Respect reduced-motion preferences and keep cards visible during fast scrolling.
-- On mobile, tapping a card opens a shadcn `Dialog` with its details. On desktop, show details in the hover/focus preview; the More Info action may open the dialog. For the temporary trailer state, use TanStack Query to request `https://example.com`; show a spinner while waiting, then say trailer data is not connected. Do not use a remote anime catalogue API.
+- Do not imitate hover on touch devices; tapping a card opens an accessible shadcn `Dialog` with its details and actions. For the temporary trailer state, use TanStack Query to request `https://example.com`; show a spinner while waiting, then say trailer data is not connected. Do not use a remote anime catalogue API.
 
 ## Sign in and account
 
