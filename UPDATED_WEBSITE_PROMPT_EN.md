@@ -13,9 +13,17 @@ Build an anime discovery site with Vite, React, and TypeScript. Set up the proje
 
 ## Visual design
 
-The brand is **YazilimWorkout | Anime**. Use a cinematic dark anime look with raspberry pink `#EB1F5B` for primary actions, rose pink `#F14B78` for secondary accents, petal pink `#F7A3AB` and pale sakura `#F8DCDD` for soft surfaces, and cool blue `#D5E2F1` for focus and secondary accents. Keep text readable and let anime artwork lead the visual presentation.
+The brand is **YazilimWorkout | Anime**. Use a cinematic dark anime look with raspberry pink `#EB1F5B` for primary actions, rose pink `#F14B78` for secondary accents, petal pink `#F7A3AB` and pale sakura `#F8DCDD` for soft surfaces, and cool blue `#D5E2F1` for focus and secondary accents. Make the interface feel editorial and specific to the brand and catalogue artwork. Avoid generic SaaS layouts, unnecessary badges, decorative labels, and ornament that does not serve the content. Keep text readable and let anime artwork lead the visual presentation. Never use glow, neon, bloom, luminous edges, colored halos, or text shadows on any component, including buttons, cards, fields, and focus states. If elevation is needed, use only a very subtle neutral shadow. Show keyboard focus with a crisp, high-contrast border or outline, never a blurred ring.
 
-Add a sticky navbar with the brand, Discover, Top 6, Films, Hidden Gems, genre filter, search, saved list, and account menu. Use `Sheet` on mobile. Below it, add a full-width **A Silent Voice** hero. Its image must cover the whole area. Place its title and details over a dark gradient in a shadcn `Card` composition. Use the `heroFeature` data.
+Add a sticky navbar with the brand, Discover, Top 6, Films, Hidden Gems, genre filter, search, saved list, and account menu. Use `Sheet` on mobile. Below it, create a wide, cinematic hero `Card` inspired by the reference composition and adapted to the anime catalogue: a broad landscape image area with subtly rounded corners, artwork covering the full area, and the main character or focal point kept on the right. In the lower-left, place a large, confident title, followed by score, genres, format, and duration/release details, then Play and More Info actions using shadcn `Button`. Use a restrained gradient that darkens from the left toward the bottom for legibility; do not crowd the title with extra copy. Use the **A Silent Voice** content and artwork from `heroFeature` without inventing details. On mobile, stack the title and actions without overflow.
+
+## Page transitions and profile selection
+
+Use a brief **Page transition** between routes: reveal the words `YazilimWorkout | Anime` over a dark background, then open the destination page with a short **Crossfade**. Time these steps as one **Orchestration**. Keep the animation brief and limited to `opacity` and `transform`; add no glow, neon, bloom, or unnecessary delay. Show the branded transition after successful sign-in/sign-up and whenever an authenticated user opens or reloads the app, then send them to profile selection. Remove the transition or complete it immediately when reduced motion is preferred.
+
+Require authentication for every app route except sign-in and sign-up. Redirect signed-out visitors to `/signin`. After sign-in or sign-up, and on every app launch with an existing session, require profile selection before opening the catalogue. No catalogue route may be accessed until a profile has been selected. Once selected, open the intended destination.
+
+Keep the profile picker simple and full-screen, following the reference: a centered “Who’s watching?” heading, shadcn `Card` choices showing each profile name and image, and a `Button`/`Dialog` flow for adding a profile. Store profiles in `localStorage` under their account; use artwork from the anime dataset for profile image choices. If the account has no profiles, do not offer a skip or exit from the picker. Require profile creation, then select the new profile before continuing. Keep the active profile for the session. Add a Switch Profile action to the account menu that returns to the picker. Clear the active profile when signing out.
 
 ## Catalogue and data
 
@@ -25,21 +33,24 @@ Render all 11 sections in the supplied order, with 102 card placements total. Ea
 
 - `ranked`: large rank numbers. `grid`: six columns on desktop and fewer on narrow screens. `strip`: landscape cards.
 - Place the Frieren feature after `ranked-two` and the Spy × Family feature after `action`.
-- Load sections as the visitor scrolls, without large blank gaps. Show shadcn `Spinner` while loading. Use subtle card entrance motion, respect reduced-motion preferences, and keep cards visible during fast scrolling.
+- Load sections as the visitor scrolls, without large blank gaps. Show shadcn `Spinner` while loading. As cards first enter the scroll area, use a brief, subtle opacity/position transition to signal new content; avoid cascading stagger sequences and parallax. Keep interaction motion purposeful and short, animate only the properties needed, and do not use `transition: all`. Respect reduced-motion preferences and keep cards visible during fast scrolling.
 - Open title details in a shadcn `Dialog`. For the temporary trailer state, use TanStack Query to request `https://example.com`; show a spinner while waiting, then say trailer data is not connected. Do not use a remote anime catalogue API.
 
 ## Sign in and account
 
-Build `/signin` and `/signup` from the attached reference: full-screen anime collage, dark overlay, centered dark form card, brand logo, clear field labels, and a raspberry-pink primary action. Use shadcn/ui Luma components for form controls and menus.
+Build the `/signin` and `/signup` backgrounds from image URLs in the anime dataset. Arrange the posters in staggered, slightly angled rows that extend beyond the viewport, with clear black gutters between them, creating a Netflix-style anime poster wall. Use only catalogue artwork from `src/data/anime.ts`; do not add external or random images. Place a static dark overlay over the artwork so the form remains readable; do not add auto-scrolling or parallax. Center a dark form card with the brand logo, clear field labels, and a raspberry-pink primary action. Use shadcn/ui Luma components for form controls and menus.
 
 - Sign in: username or email, password, show/hide control, password recovery note, and registration link.
 - Sign up: username, email, password, confirmation, and sign-in link.
 - Store accounts and sessions in `localStorage`; store salted PBKDF2 password hashes. Allow sign-in with username or email.
 - While signed out, show Sign In. When signed in, place the user’s name to the left of the avatar. Avatar: https://i.pinimg.com/736x/c0/35/c9/c035c9f1ce89541ff98670867ea2534f.jpg.
-- Include Sign Out in the avatar menu. Close the menu on outside click or Escape. Sign Out clears the local session and updates the navbar. Return to Discover after sign-in/sign-up; direct access and refresh must work on `/signin` and `/signup`.
+- Include Switch Profile and Sign Out in the avatar menu. Close the menu on outside click or Escape. Sign Out clears the local session and active profile, then updates the navbar. Direct access and refresh must work on `/signin` and `/signup`.
 
 ## README and delivery
 
-Create `README.md`. Both must contain Turkish and English sections, with `Türkçe | English` links at the top that jump to the matching sections. Explain setup, run and build commands, stack, features, routes, and local account behavior.
+Create `README.md` and `READMEç.md`. Both must contain Turkish and English sections, with `Türkçe | English` links at the top that jump to the matching sections. Explain setup, run and build commands, stack, features, routes, and local account behavior.
 
 Run the production build and fix errors. Search, genre filtering, catalogue cards and dialog, scroll loading, sign-in, sign-up, account menu, and sign-out must work. Desktop and mobile layouts must have no horizontal overflow or empty catalogue sections.
+
+
+
