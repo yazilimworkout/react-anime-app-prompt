@@ -1,0 +1,613 @@
+{
+  "catalog": [
+    {
+      "id": "a-0",
+      "title": "Jujutsu Kaisen",
+      "image": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-1",
+      "title": "Demon Slayer",
+      "image": "https://image.tmdb.org/t/p/w780/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-2",
+      "title": "Attack on Titan",
+      "image": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      "rating": "9.1",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-3",
+      "title": "Chainsaw Man",
+      "image": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-4",
+      "title": "Spy x Family",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/1393/388/1.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Comedy"
+    },
+    {
+      "id": "a-5",
+      "title": "Frieren: Beyond Journey’s End",
+      "image": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+      "rating": "9.3",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-6",
+      "title": "One Piece",
+      "image": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+      "rating": "9.0",
+      "type": "TV",
+      "genre": "Adventure"
+    },
+    {
+      "id": "a-7",
+      "title": "Death Note",
+      "image": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Mystery"
+    },
+    {
+      "id": "a-8",
+      "title": "Haikyu!!",
+      "image": "https://i.pinimg.com/736x/07/09/7c/07097c203b55d8ff6f0ce17e054e8ab3.jpg",
+      "rating": "8.4",
+      "type": "TV",
+      "genre": "Sports"
+    },
+    {
+      "id": "a-9",
+      "title": "Blue Lock",
+      "image": "https://static.zerochan.net/Blue.Lock.1024.3723834.webp",
+      "rating": "8.2",
+      "type": "TV",
+      "genre": "Sports"
+    },
+    {
+      "id": "a-10",
+      "title": "My Hero Academia",
+      "image": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+      "rating": "7.9",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-11",
+      "title": "Vinland Saga",
+      "image": "https://i.pinimg.com/originals/c8/53/7e/c8537ee22714514fbc5b180b743d7c22.jpg",
+      "rating": "8.8",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-12",
+      "title": "Naruto: Shippuden",
+      "image": "https://image.tmdb.org/t/p/w780/zAYRe2bJxpWTVrwwmBc00VFkAf4.jpg",
+      "rating": "8.3",
+      "type": "TV",
+      "genre": "Adventure"
+    },
+    {
+      "id": "a-13",
+      "title": "Bleach: TYBW",
+      "image": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+      "rating": "9.0",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-14",
+      "title": "Mob Psycho 100",
+      "image": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Comedy"
+    },
+    {
+      "id": "a-15",
+      "title": "Tokyo Revengers",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/1/4/1200w/img_1475fe800453b23fc55b67480cc8d0c3230409.jpg",
+      "rating": "7.8",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-16",
+      "title": "Solo Leveling",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2M4YzdkMTEtMjUyYy00ZWY0LWI5ODQtNGRkZWQ1MzU5MWM2XkEyXkFqcGc%40._V1_.jpg",
+      "rating": "8.4",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-17",
+      "title": "Oshi no Ko",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/9/9/724w/img_995f3007d7225ecea1e0bb53e57fff71156797.jpg",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-18",
+      "title": "The Apothecary Diaries",
+      "image": "https://static.animecorner.me/2024/12/1733760932-7523c484938f862d68041cbd2d84f55c.jpg",
+      "rating": "8.9",
+      "type": "TV",
+      "genre": "Mystery"
+    },
+    {
+      "id": "a-19",
+      "title": "Bocchi the Rock!",
+      "image": "https://cdn.myanimelist.net/images/anime/1448/127956.jpg",
+      "rating": "8.8",
+      "type": "TV",
+      "genre": "Music"
+    },
+    {
+      "id": "a-20",
+      "title": "Cyberpunk: Edgerunners",
+      "image": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+      "rating": "8.6",
+      "type": "ONA",
+      "genre": "Sci-fi"
+    },
+    {
+      "id": "a-21",
+      "title": "Your Name.",
+      "image": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+      "rating": "8.8",
+      "type": "FILM",
+      "genre": "Romance"
+    },
+    {
+      "id": "a-22",
+      "title": "Cowboy Bebop",
+      "image": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+      "rating": "8.8",
+      "type": "TV",
+      "genre": "Sci-fi"
+    },
+    {
+      "id": "a-23",
+      "title": "Steins;Gate",
+      "image": "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
+      "rating": "9.1",
+      "type": "TV",
+      "genre": "Thriller"
+    },
+    {
+      "id": "a-24",
+      "title": "Dandadan",
+      "image": "https://www.anime-atelier.com/content/images/2024/12/DAN_DA_DAN___Season_2_Key_Visual.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-25",
+      "title": "Blue Period",
+      "image": "https://images.justwatch.com/poster/250936896/s718/blue-period.jpg",
+      "rating": "7.8",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-26",
+      "title": "Delicious in Dungeon",
+      "image": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-27",
+      "title": "Kaguya-sama: Love is War",
+      "image": "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
+      "rating": "8.4",
+      "type": "TV",
+      "genre": "Romance"
+    },
+    {
+      "id": "a-28",
+      "title": "The Promised Neverland",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x1800/catalog/crunchyroll/e2640ec6f13f38927422c0841c924225.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Thriller"
+    },
+    {
+      "id": "a-29",
+      "title": "A Silent Voice",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjMzZDMzMDYtMGU1ZC00MGJjLWJhYjgtZGUzMzg5YjNmY2ZmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "rating": "8.9",
+      "type": "FILM",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-30",
+      "title": "Re:ZERO",
+      "image": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
+      "rating": "8.2",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-31",
+      "title": "Dr. STONE",
+      "image": "https://aop-emtg-jp.s3.amazonaws.com/prod/public/burnoutsyndromes/contents/information/def4cf44262e2dcc25f53c1d51ade9a0.jpg",
+      "rating": "8.1",
+      "type": "TV",
+      "genre": "Adventure"
+    },
+    {
+      "id": "a-32",
+      "title": "Black Clover",
+      "image": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
+      "rating": "8.1",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-33",
+      "title": "Samurai Champloo",
+      "image": "https://image.tmdb.org/t/p/original/lYpHeSm7BcUxAbBx1ucuEH7oGAe.jpg",
+      "rating": "8.5",
+      "type": "TV",
+      "genre": "Action"
+    },
+    {
+      "id": "a-34",
+      "title": "Violet Evergarden",
+      "image": "https://images.static-bluray.com/products/20/61381_1_large.jpg",
+      "rating": "8.7",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-35",
+      "title": "Made in Abyss",
+      "image": "https://cdn.myanimelist.net/images/anime/6/86733.jpg",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Adventure"
+    },
+    {
+      "id": "a-36",
+      "title": "Psycho-Pass",
+      "image": "https://cdn.myanimelist.net/images/anime/5/43399.jpg",
+      "rating": "8.3",
+      "type": "TV",
+      "genre": "Sci-fi"
+    },
+    {
+      "id": "a-37",
+      "title": "Dungeon Meshi",
+      "image": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
+      "rating": "8.6",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-38",
+      "title": "Hellsing Ultimate",
+      "image": "https://image.tmdb.org/t/p/original/xZzZuWPYHKX2GDjSiWpHhkHAxQN.jpg",
+      "rating": "8.3",
+      "type": "OVA",
+      "genre": "Horror"
+    },
+    {
+      "id": "a-39",
+      "title": "Parasyte",
+      "image": "https://static.tvmaze.com/uploads/images/original_untouched/11/27917.jpg",
+      "rating": "8.3",
+      "type": "TV",
+      "genre": "Horror"
+    },
+    {
+      "id": "a-40",
+      "title": "Gintama",
+      "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/h/hinayayoi0w0/20260127/20260127095354.jpg",
+      "rating": "8.9",
+      "type": "TV",
+      "genre": "Comedy"
+    },
+    {
+      "id": "a-41",
+      "title": "Mushoku Tensei",
+      "image": "https://cdn.myanimelist.net/images/anime/1764/126627.jpg",
+      "rating": "8.4",
+      "type": "TV",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "a-42",
+      "title": "The First Slam Dunk",
+      "image": "https://rockinon.com/images/entry/width%3A1200/204597/1",
+      "rating": "8.7",
+      "type": "FILM",
+      "genre": "Sports"
+    },
+    {
+      "id": "a-43",
+      "title": "86 Eighty-Six",
+      "image": "https://image.tmdb.org/t/p/original/96mUvRlJBYOMBdbn30wtoh7QrpY.jpg",
+      "rating": "8.3",
+      "type": "TV",
+      "genre": "Drama"
+    },
+    {
+      "id": "a-44",
+      "title": "Pluto",
+      "image": "https://pluto-anime.com/assets/images/top/mv02_tablet.webp",
+      "rating": "8.5",
+      "type": "ONA",
+      "genre": "Mystery"
+    },
+    {
+      "id": "a-45",
+      "title": "Erased",
+      "image": "https://image.tmdb.org/t/p/original/kInv98CV5GlPxZYIPhuOJKkfILq.jpg",
+      "rating": "8.3",
+      "type": "TV",
+      "genre": "Thriller"
+    },
+    {
+      "id": "a-46",
+      "title": "Toradora!",
+      "image": "https://cdn.myanimelist.net/images/anime/13/22128.jpg",
+      "rating": "8.1",
+      "type": "TV",
+      "genre": "Romance"
+    },
+    {
+      "id": "a-47",
+      "title": "Monster",
+      "image": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
+      "rating": "8.9",
+      "type": "TV",
+      "genre": "Thriller"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "title": "THE YAZILIMWORKOUT TOP 6",
+      "eyebrow": "THE COMMUNITY VOTED",
+      "type": "ranked",
+      "itemIds": [
+        "a-5",
+        "a-2",
+        "a-21",
+        "a-1",
+        "a-3",
+        "a-0"
+      ]
+    },
+    {
+      "id": "airing",
+      "title": "SIMULCAST / THIS SEASON",
+      "eyebrow": "NEW EPISODES EVERY WEEK",
+      "type": "grid",
+      "itemIds": [
+        "a-24",
+        "a-18",
+        "a-26",
+        "a-0",
+        "a-6",
+        "a-4",
+        "a-19",
+        "a-25",
+        "a-31",
+        "a-10",
+        "a-14",
+        "a-23"
+      ]
+    },
+    {
+      "id": "watchlist",
+      "title": "A GOOD PLACE TO START",
+      "eyebrow": "ESSENTIAL WATCHING",
+      "type": "strip",
+      "itemIds": [
+        "a-7",
+        "a-22",
+        "a-29",
+        "a-11",
+        "a-15",
+        "a-20"
+      ]
+    },
+    {
+      "id": "popular",
+      "title": "POPULAR RIGHT NOW",
+      "eyebrow": "TRENDING ACROSS YAZILIMWORKOUT",
+      "type": "grid",
+      "itemIds": [
+        "a-6",
+        "a-0",
+        "a-3",
+        "a-5",
+        "a-16",
+        "a-17",
+        "a-8",
+        "a-12",
+        "a-9",
+        "a-14",
+        "a-27",
+        "a-13"
+      ]
+    },
+    {
+      "id": "movies",
+      "title": "FEATURED FILMS",
+      "eyebrow": "A LITTLE CINEMA TONIGHT",
+      "type": "grid",
+      "itemIds": [
+        "a-21",
+        "a-29",
+        "a-40",
+        "a-41",
+        "a-1",
+        "a-5"
+      ]
+    },
+    {
+      "id": "ranked-two",
+      "title": "MOST LOVED SERIES",
+      "eyebrow": "ALL TIME · COMMUNITY RANKED",
+      "type": "ranked",
+      "itemIds": [
+        "a-5",
+        "a-22",
+        "a-2",
+        "a-23",
+        "a-7",
+        "a-11"
+      ]
+    },
+    {
+      "id": "hidden",
+      "title": "HIDDEN GEMS",
+      "eyebrow": "JUST OUTSIDE THE SPOTLIGHT",
+      "type": "grid",
+      "itemIds": [
+        "a-39",
+        "a-37",
+        "a-36",
+        "a-42",
+        "a-43",
+        "a-44",
+        "a-19",
+        "a-33",
+        "a-35",
+        "a-34",
+        "a-30",
+        "a-38"
+      ]
+    },
+    {
+      "id": "season",
+      "title": "THE SHORTLIST",
+      "eyebrow": "EDITOR’S PICKS",
+      "type": "strip",
+      "itemIds": [
+        "a-18",
+        "a-19",
+        "a-26",
+        "a-25",
+        "a-27",
+        "a-28"
+      ]
+    },
+    {
+      "id": "action",
+      "title": "HIGH IMPACT",
+      "eyebrow": "ACTION / ADVENTURE",
+      "type": "grid",
+      "itemIds": [
+        "a-13",
+        "a-32",
+        "a-38",
+        "a-14",
+        "a-12",
+        "a-16",
+        "a-24",
+        "a-0",
+        "a-3",
+        "a-1",
+        "a-2",
+        "a-6"
+      ]
+    },
+    {
+      "id": "drama",
+      "title": "STAY FOR THE STORY",
+      "eyebrow": "DRAMA / THRILLER",
+      "type": "grid",
+      "itemIds": [
+        "a-43",
+        "a-44",
+        "a-17",
+        "a-11",
+        "a-15",
+        "a-42",
+        "a-39",
+        "a-23",
+        "a-7",
+        "a-29",
+        "a-18",
+        "a-35"
+      ]
+    },
+    {
+      "id": "finale",
+      "title": "ONE MORE EPISODE",
+      "eyebrow": "A FEW MORE FOR THE QUEUE",
+      "type": "grid",
+      "itemIds": [
+        "a-4",
+        "a-8",
+        "a-9",
+        "a-10",
+        "a-14",
+        "a-20",
+        "a-25",
+        "a-26",
+        "a-28",
+        "a-30",
+        "a-31",
+        "a-45"
+      ]
+    }
+  ],
+  "heroFeature": {
+    "id": "a-29",
+    "title": "A Silent Voice",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjMzZDMzMDYtMGU1ZC00MGJjLWJhYjgtZGUzMzg5YjNmY2ZmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "rating": "8.9",
+    "type": "FILM",
+    "genre": "Drama",
+    "backgroundImage": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__18891-a-silent-voice--hi_res-544b1ce9.jpg/film__18891-a-silent-voice--hi_res-544b1ce9.jpg"
+  },
+  "features": [
+    {
+      "title": "FRIEREN: BEYOND JOURNEY’S END",
+      "sub": "A JOURNEY BEYOND THE LAST BATTLE",
+      "kicker": "YAZILIMWORKOUT SPOTLIGHT / 01",
+      "rating": "8.0",
+      "type": "TV SERIES",
+      "genre": "FANTASY · ROMANCE",
+      "description": "Some bonds are chosen. Others find you in the quietest, strangest places.",
+      "image": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+      "theme": "botanical"
+    },
+    {
+      "title": "SPY × FAMILY",
+      "sub": "THE WORLD’S MOST UNLIKELY FAMILY",
+      "kicker": "THE YAZILIMWORKOUT FILM ROOM / 03",
+      "rating": "8.5",
+      "type": "TV SERIES",
+      "genre": "ACTION · COMEDY",
+      "description": "A spy, an assassin, and a mind-reading kid make one very unconventional family.",
+      "image": "https://bilder.wunschliste.de/gfx/bv/spy-x-family_615995.jpg",
+      "theme": "light"
+    }
+  ]
+}
