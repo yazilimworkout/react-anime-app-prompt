@@ -15,7 +15,6 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
         "seasons": [
           {
             "episodeCount": 24,
@@ -35,6 +34,27 @@
             ],
             "number": 1
           }
+        ],
+        "director": "Sunghoo Park",
+        "writers": [
+          "Hiroshi Seko"
+        ],
+        "cast": [
+          "Junya Enoki",
+          "Yuma Uchida",
+          "Yuichi Nakamura",
+          "Asami Seto",
+          "Junichi Suwabe"
+        ],
+        "studio": "MAPPA",
+        "recommendationIds": [
+          "a-1",
+          "a-2",
+          "a-3"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://jujutsukaisen.jp/staffcast/"
         ]
       }
     },
@@ -53,7 +73,6 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
         "seasons": [
           {
             "episodeCount": 26,
@@ -73,6 +92,27 @@
             ],
             "number": 1
           }
+        ],
+        "director": "Haruo Sotozaki",
+        "writers": [
+          "Koyoharu Gotouge",
+          "ufotable"
+        ],
+        "cast": [
+          "Natsuki Hanae",
+          "Akari Kito",
+          "Hiro Shimono",
+          "Yoshitsugu Matsuoka"
+        ],
+        "studio": "ufotable",
+        "recommendationIds": [
+          "a-0",
+          "a-5",
+          "a-26"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://www.fujitv.co.jp/kimetsu/"
         ]
       }
     },
@@ -91,7 +131,6 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
         "seasons": [
           {
             "episodeCount": 25,
@@ -106,11 +145,32 @@
               },
               {
                 "number": 3,
-                "title": "A Dim Light Amid Despair: Humanity\u2019s Comeback, Part 1"
+                "title": "A Dim Light Amid Despair: Humanity’s Comeback, Part 1"
               }
             ],
             "number": 1
           }
+        ],
+        "director": "Tetsuro Araki",
+        "writers": [
+          "Yasuko Kobayashi"
+        ],
+        "cast": [
+          "Yuki Kaji",
+          "Yui Ishikawa",
+          "Marina Inoue",
+          "Kisho Taniyama"
+        ],
+        "studio": "WIT STUDIO",
+        "recommendationIds": [
+          "a-0",
+          "a-3",
+          "a-11"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://shingeki.tv/season1/staff/",
+          "https://aot-portal.com/en/animation/tv-series-season1/"
         ]
       }
     },
@@ -129,7 +189,6 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
         "seasons": [
           {
             "episodeCount": 12,
@@ -144,11 +203,33 @@
               },
               {
                 "number": 3,
-                "title": "Meowy\u2019s Whereabouts"
+                "title": "Meowy’s Whereabouts"
               }
             ],
             "number": 1
           }
+        ],
+        "director": "Ryu Nakayama",
+        "writers": [
+          "Hiroshi Seko"
+        ],
+        "cast": [
+          "Kikunosuke Toya",
+          "Tomori Kusunoki",
+          "Shogo Sakata",
+          "Fairouz Ai",
+          "Shiori Izawa"
+        ],
+        "studio": "MAPPA",
+        "recommendationIds": [
+          "a-0",
+          "a-2",
+          "a-24"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://www.chainsawman.dog/tvseries/staffcast/",
+          "https://www.chainsawman.dog/tvseries/episodes/"
         ]
       }
     },
@@ -167,8 +248,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -186,18 +273,17 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
         "seasons": [
           {
             "episodeCount": 28,
             "episodes": [
               {
                 "number": 1,
-                "title": "The Journey\u2019s End"
+                "title": "The Journey’s End"
               },
               {
                 "number": 2,
-                "title": "It Didn\u2019t Have to Be Magic"
+                "title": "It Didn’t Have to Be Magic"
               },
               {
                 "number": 3,
@@ -206,6 +292,28 @@
             ],
             "number": 1
           }
+        ],
+        "director": "Keiichiro Saito",
+        "writers": [
+          "Tomohiro Suzuki"
+        ],
+        "cast": [
+          "Atsumi Tanezaki",
+          "Kana Ichinose",
+          "Chiaki Kobayashi",
+          "Nobuhiko Okamoto",
+          "Hiroki Touchi",
+          "Yoji Ueda"
+        ],
+        "studio": "MADHOUSE",
+        "recommendationIds": [
+          "a-1",
+          "a-26",
+          "a-30"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://madhouse.co.jp/english/works/tv_frieren-anime/"
         ]
       }
     },
@@ -224,8 +332,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -243,8 +357,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -262,8 +382,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -281,8 +407,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -300,8 +432,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -319,8 +457,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -338,8 +482,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -357,8 +507,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -376,8 +532,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -395,8 +557,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -414,8 +582,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -433,8 +607,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -452,8 +632,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -471,8 +657,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -490,8 +682,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -509,8 +707,26 @@
         "runtimeMinutes": 106,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
-        "seasons": []
+        "seasons": [],
+        "director": "Makoto Shinkai",
+        "writers": [
+          "Makoto Shinkai"
+        ],
+        "cast": [
+          "Ryunosuke Kamiki",
+          "Mone Kamishiraishi",
+          "Ryo Narita",
+          "Aoi Yuki"
+        ],
+        "studio": "CoMix Wave Films",
+        "recommendationIds": [
+          "a-29",
+          "a-42"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://www.cwfilms.jp/en/products/article/kiminona.html"
+        ]
       }
     },
     {
@@ -528,8 +744,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -547,8 +769,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -566,8 +794,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -585,8 +819,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -604,8 +844,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -623,8 +869,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -642,8 +894,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -661,8 +919,28 @@
         "runtimeMinutes": 130,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
-        "seasons": []
+        "seasons": [],
+        "director": "Naoko Yamada",
+        "writers": [
+          "Reiko Yoshida"
+        ],
+        "cast": [
+          "Miyu Irino",
+          "Saori Hayami",
+          "Aoi Yuki",
+          "Kensho Ono",
+          "Yuki Kaneko"
+        ],
+        "studio": "Kyoto Animation",
+        "recommendationIds": [
+          "a-21",
+          "a-42"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://db.nipponconnection.com/en/film/243/a-silent-voice",
+          "https://www.kyotoanimation.co.jp/en/works/koeMovie/"
+        ]
       }
     },
     {
@@ -680,8 +958,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -699,8 +983,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -718,8 +1008,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -737,8 +1033,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -756,8 +1058,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -775,8 +1083,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -794,8 +1108,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -813,8 +1133,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -832,8 +1158,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -851,8 +1183,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -870,8 +1208,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -889,8 +1233,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -908,8 +1258,28 @@
         "runtimeMinutes": 124,
         "maturityRating": null,
         "audio": [],
-        "cast": [],
-        "seasons": []
+        "seasons": [],
+        "director": "Takehiko Inoue",
+        "writers": [
+          "Takehiko Inoue"
+        ],
+        "cast": [
+          "Shugo Nakamura",
+          "Jun Kasama",
+          "Shinichiro Kamio",
+          "Subaru Kimura",
+          "Kenta Miyake"
+        ],
+        "studio": "Toei Animation / DandeLion Animation Studio",
+        "recommendationIds": [
+          "a-21",
+          "a-29"
+        ],
+        "contentDescriptors": [],
+        "sources": [
+          "https://slamdunk-movie.jp/about/staff/",
+          "https://slamdunk-movie.jp/about/cast/"
+        ]
       }
     },
     {
@@ -927,8 +1297,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -946,8 +1322,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -965,8 +1347,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -984,8 +1372,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     },
     {
@@ -1003,8 +1397,14 @@
         "runtimeMinutes": null,
         "maturityRating": null,
         "audio": [],
+        "seasons": [],
+        "director": null,
+        "writers": [],
         "cast": [],
-        "seasons": []
+        "studio": null,
+        "recommendationIds": [],
+        "contentDescriptors": [],
+        "sources": []
       }
     }
   ],
