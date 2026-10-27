@@ -6,7 +6,37 @@
       "image": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+        "format": "TV Series",
+        "releaseYear": 2020,
+        "synopsis": "Yuji Itadori swallows a cursed object and becomes host to a powerful curse, drawing him into the dangerous world of jujutsu sorcerers.",
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": [
+          {
+            "episodeCount": 24,
+            "episodes": [
+              {
+                "number": 1,
+                "title": "Ryomen Sukuna"
+              },
+              {
+                "number": 2,
+                "title": "For Myself"
+              },
+              {
+                "number": 3,
+                "title": "Girl of Steel"
+              }
+            ],
+            "number": 1
+          }
+        ]
+      }
     },
     {
       "id": "a-1",
@@ -14,7 +44,37 @@
       "image": "https://image.tmdb.org/t/p/w780/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/w780/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
+        "format": "TV Series",
+        "releaseYear": 2019,
+        "synopsis": "After demons slaughter his family and turn his sister Nezuko into one of them, Tanjiro Kamado joins the Demon Slayer Corps to find a cure.",
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": [
+          {
+            "episodeCount": 26,
+            "episodes": [
+              {
+                "number": 1,
+                "title": "Cruelty"
+              },
+              {
+                "number": 2,
+                "title": "Trainer Sakonji Urokodaki"
+              },
+              {
+                "number": 3,
+                "title": "Sabito and Makomo"
+              }
+            ],
+            "number": 1
+          }
+        ]
+      }
     },
     {
       "id": "a-2",
@@ -22,7 +82,37 @@
       "image": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
       "rating": "9.1",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+        "format": "TV Series",
+        "releaseYear": 2013,
+        "synopsis": "Humanity lives behind massive walls until a sudden attack brings Titans into the city and changes the life of Eren Yeager.",
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": [
+          {
+            "episodeCount": 25,
+            "episodes": [
+              {
+                "number": 1,
+                "title": "To You, in 2000 Years: The Fall of Shiganshina, Part 1"
+              },
+              {
+                "number": 2,
+                "title": "That Day: The Fall of Shiganshina, Part 2"
+              },
+              {
+                "number": 3,
+                "title": "A Dim Light Amid Despair: Humanity\u2019s Comeback, Part 1"
+              }
+            ],
+            "number": 1
+          }
+        ]
+      }
     },
     {
       "id": "a-3",
@@ -30,7 +120,37 @@
       "image": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
+        "format": "TV Series",
+        "releaseYear": 2022,
+        "synopsis": "After a life of debt and hardship, Denji merges with his devil companion Pochita and becomes Chainsaw Man.",
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": [
+          {
+            "episodeCount": 12,
+            "episodes": [
+              {
+                "number": 1,
+                "title": "Dog & Chainsaw"
+              },
+              {
+                "number": 2,
+                "title": "Arrival in Tokyo"
+              },
+              {
+                "number": 3,
+                "title": "Meowy\u2019s Whereabouts"
+              }
+            ],
+            "number": 1
+          }
+        ]
+      }
     },
     {
       "id": "a-4",
@@ -38,7 +158,18 @@
       "image": "https://game.watch.impress.co.jp/img/gmw/list/1393/388/1.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "details": {
+        "backdropImage": "https://game.watch.impress.co.jp/img/gmw/list/1393/388/1.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-5",
@@ -46,7 +177,37 @@
       "image": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
       "rating": "9.3",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+        "format": "TV Series",
+        "releaseYear": 2023,
+        "synopsis": "After the Demon King is defeated, elven mage Frieren outlives her former companions and begins a journey to understand the people she once traveled with.",
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": [
+          {
+            "episodeCount": 28,
+            "episodes": [
+              {
+                "number": 1,
+                "title": "The Journey\u2019s End"
+              },
+              {
+                "number": 2,
+                "title": "It Didn\u2019t Have to Be Magic"
+              },
+              {
+                "number": 3,
+                "title": "Killing Magic"
+              }
+            ],
+            "number": 1
+          }
+        ]
+      }
     },
     {
       "id": "a-6",
@@ -54,7 +215,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
       "rating": "9.0",
       "type": "TV",
-      "genre": "Adventure"
+      "genre": "Adventure",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-7",
@@ -62,7 +234,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Mystery"
+      "genre": "Mystery",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-8",
@@ -70,7 +253,18 @@
       "image": "https://i.pinimg.com/736x/07/09/7c/07097c203b55d8ff6f0ce17e054e8ab3.jpg",
       "rating": "8.4",
       "type": "TV",
-      "genre": "Sports"
+      "genre": "Sports",
+      "details": {
+        "backdropImage": "https://i.pinimg.com/736x/07/09/7c/07097c203b55d8ff6f0ce17e054e8ab3.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-9",
@@ -78,7 +272,18 @@
       "image": "https://static.zerochan.net/Blue.Lock.1024.3723834.webp",
       "rating": "8.2",
       "type": "TV",
-      "genre": "Sports"
+      "genre": "Sports",
+      "details": {
+        "backdropImage": "https://static.zerochan.net/Blue.Lock.1024.3723834.webp",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-10",
@@ -86,7 +291,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
       "rating": "7.9",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-11",
@@ -94,7 +310,18 @@
       "image": "https://i.pinimg.com/originals/c8/53/7e/c8537ee22714514fbc5b180b743d7c22.jpg",
       "rating": "8.8",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://i.pinimg.com/originals/c8/53/7e/c8537ee22714514fbc5b180b743d7c22.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-12",
@@ -102,7 +329,18 @@
       "image": "https://image.tmdb.org/t/p/w780/zAYRe2bJxpWTVrwwmBc00VFkAf4.jpg",
       "rating": "8.3",
       "type": "TV",
-      "genre": "Adventure"
+      "genre": "Adventure",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/w780/zAYRe2bJxpWTVrwwmBc00VFkAf4.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-13",
@@ -110,7 +348,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
       "rating": "9.0",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-14",
@@ -118,7 +367,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-15",
@@ -126,7 +386,18 @@
       "image": "https://times-abema.ismcdn.jp/mwimgs/1/4/1200w/img_1475fe800453b23fc55b67480cc8d0c3230409.jpg",
       "rating": "7.8",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://times-abema.ismcdn.jp/mwimgs/1/4/1200w/img_1475fe800453b23fc55b67480cc8d0c3230409.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-16",
@@ -134,7 +405,18 @@
       "image": "https://m.media-amazon.com/images/M/MV5BM2M4YzdkMTEtMjUyYy00ZWY0LWI5ODQtNGRkZWQ1MzU5MWM2XkEyXkFqcGc%40._V1_.jpg",
       "rating": "8.4",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://m.media-amazon.com/images/M/MV5BM2M4YzdkMTEtMjUyYy00ZWY0LWI5ODQtNGRkZWQ1MzU5MWM2XkEyXkFqcGc%40._V1_.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-17",
@@ -142,7 +424,18 @@
       "image": "https://times-abema.ismcdn.jp/mwimgs/9/9/724w/img_995f3007d7225ecea1e0bb53e57fff71156797.jpg",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://times-abema.ismcdn.jp/mwimgs/9/9/724w/img_995f3007d7225ecea1e0bb53e57fff71156797.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-18",
@@ -150,7 +443,18 @@
       "image": "https://static.animecorner.me/2024/12/1733760932-7523c484938f862d68041cbd2d84f55c.jpg",
       "rating": "8.9",
       "type": "TV",
-      "genre": "Mystery"
+      "genre": "Mystery",
+      "details": {
+        "backdropImage": "https://static.animecorner.me/2024/12/1733760932-7523c484938f862d68041cbd2d84f55c.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-19",
@@ -158,7 +462,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/1448/127956.jpg",
       "rating": "8.8",
       "type": "TV",
-      "genre": "Music"
+      "genre": "Music",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1448/127956.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-20",
@@ -166,7 +481,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
       "rating": "8.6",
       "type": "ONA",
-      "genre": "Sci-fi"
+      "genre": "Sci-fi",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+        "format": "ONA Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-21",
@@ -174,7 +500,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
       "rating": "8.8",
       "type": "FILM",
-      "genre": "Romance"
+      "genre": "Romance",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+        "format": "Film",
+        "releaseYear": 2016,
+        "synopsis": "Two teenagers who have never met begin mysteriously switching bodies and searching for one another across Japan.",
+        "runtimeMinutes": 106,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-22",
@@ -182,7 +519,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
       "rating": "8.8",
       "type": "TV",
-      "genre": "Sci-fi"
+      "genre": "Sci-fi",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-23",
@@ -190,7 +538,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
       "rating": "9.1",
       "type": "TV",
-      "genre": "Thriller"
+      "genre": "Thriller",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-24",
@@ -198,7 +557,18 @@
       "image": "https://www.anime-atelier.com/content/images/2024/12/DAN_DA_DAN___Season_2_Key_Visual.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://www.anime-atelier.com/content/images/2024/12/DAN_DA_DAN___Season_2_Key_Visual.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-25",
@@ -206,7 +576,18 @@
       "image": "https://images.justwatch.com/poster/250936896/s718/blue-period.jpg",
       "rating": "7.8",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://images.justwatch.com/poster/250936896/s718/blue-period.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-26",
@@ -214,7 +595,18 @@
       "image": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-27",
@@ -222,7 +614,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
       "rating": "8.4",
       "type": "TV",
-      "genre": "Romance"
+      "genre": "Romance",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-28",
@@ -230,7 +633,18 @@
       "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x1800/catalog/crunchyroll/e2640ec6f13f38927422c0841c924225.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Thriller"
+      "genre": "Thriller",
+      "details": {
+        "backdropImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x1800/catalog/crunchyroll/e2640ec6f13f38927422c0841c924225.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-29",
@@ -238,7 +652,18 @@
       "image": "https://m.media-amazon.com/images/M/MV5BZjMzZDMzMDYtMGU1ZC00MGJjLWJhYjgtZGUzMzg5YjNmY2ZmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
       "rating": "8.9",
       "type": "FILM",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://m.media-amazon.com/images/M/MV5BZjMzZDMzMDYtMGU1ZC00MGJjLWJhYjgtZGUzMzg5YjNmY2ZmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+        "format": "Film",
+        "releaseYear": 2016,
+        "synopsis": "A young man seeks redemption after bullying a deaf classmate and tries to reconnect with her years later.",
+        "runtimeMinutes": 130,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-30",
@@ -246,7 +671,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
       "rating": "8.2",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-31",
@@ -254,7 +690,18 @@
       "image": "https://aop-emtg-jp.s3.amazonaws.com/prod/public/burnoutsyndromes/contents/information/def4cf44262e2dcc25f53c1d51ade9a0.jpg",
       "rating": "8.1",
       "type": "TV",
-      "genre": "Adventure"
+      "genre": "Adventure",
+      "details": {
+        "backdropImage": "https://aop-emtg-jp.s3.amazonaws.com/prod/public/burnoutsyndromes/contents/information/def4cf44262e2dcc25f53c1d51ade9a0.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-32",
@@ -262,7 +709,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
       "rating": "8.1",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-33",
@@ -270,7 +728,18 @@
       "image": "https://image.tmdb.org/t/p/original/lYpHeSm7BcUxAbBx1ucuEH7oGAe.jpg",
       "rating": "8.5",
       "type": "TV",
-      "genre": "Action"
+      "genre": "Action",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/original/lYpHeSm7BcUxAbBx1ucuEH7oGAe.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-34",
@@ -278,7 +747,18 @@
       "image": "https://images.static-bluray.com/products/20/61381_1_large.jpg",
       "rating": "8.7",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://images.static-bluray.com/products/20/61381_1_large.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-35",
@@ -286,7 +766,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/6/86733.jpg",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Adventure"
+      "genre": "Adventure",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/6/86733.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-36",
@@ -294,7 +785,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/5/43399.jpg",
       "rating": "8.3",
       "type": "TV",
-      "genre": "Sci-fi"
+      "genre": "Sci-fi",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/5/43399.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-37",
@@ -302,7 +804,18 @@
       "image": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
       "rating": "8.6",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/73ffe476f58ed.png",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-38",
@@ -310,7 +823,18 @@
       "image": "https://image.tmdb.org/t/p/original/xZzZuWPYHKX2GDjSiWpHhkHAxQN.jpg",
       "rating": "8.3",
       "type": "OVA",
-      "genre": "Horror"
+      "genre": "Horror",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/original/xZzZuWPYHKX2GDjSiWpHhkHAxQN.jpg",
+        "format": "OVA",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-39",
@@ -318,7 +842,18 @@
       "image": "https://static.tvmaze.com/uploads/images/original_untouched/11/27917.jpg",
       "rating": "8.3",
       "type": "TV",
-      "genre": "Horror"
+      "genre": "Horror",
+      "details": {
+        "backdropImage": "https://static.tvmaze.com/uploads/images/original_untouched/11/27917.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-40",
@@ -326,7 +861,18 @@
       "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/h/hinayayoi0w0/20260127/20260127095354.jpg",
       "rating": "8.9",
       "type": "TV",
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "details": {
+        "backdropImage": "https://cdn-ak.f.st-hatena.com/images/fotolife/h/hinayayoi0w0/20260127/20260127095354.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-41",
@@ -334,7 +880,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/1764/126627.jpg",
       "rating": "8.4",
       "type": "TV",
-      "genre": "Fantasy"
+      "genre": "Fantasy",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/1764/126627.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-42",
@@ -342,7 +899,18 @@
       "image": "https://rockinon.com/images/entry/width%3A1200/204597/1",
       "rating": "8.7",
       "type": "FILM",
-      "genre": "Sports"
+      "genre": "Sports",
+      "details": {
+        "backdropImage": "https://rockinon.com/images/entry/width%3A1200/204597/1",
+        "format": "Film",
+        "releaseYear": 2022,
+        "synopsis": "A former high-school basketball player returns to the court as Shohoku faces a formidable rival.",
+        "runtimeMinutes": 124,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-43",
@@ -350,7 +918,18 @@
       "image": "https://image.tmdb.org/t/p/original/96mUvRlJBYOMBdbn30wtoh7QrpY.jpg",
       "rating": "8.3",
       "type": "TV",
-      "genre": "Drama"
+      "genre": "Drama",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/original/96mUvRlJBYOMBdbn30wtoh7QrpY.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-44",
@@ -358,7 +937,18 @@
       "image": "https://pluto-anime.com/assets/images/top/mv02_tablet.webp",
       "rating": "8.5",
       "type": "ONA",
-      "genre": "Mystery"
+      "genre": "Mystery",
+      "details": {
+        "backdropImage": "https://pluto-anime.com/assets/images/top/mv02_tablet.webp",
+        "format": "ONA Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-45",
@@ -366,7 +956,18 @@
       "image": "https://image.tmdb.org/t/p/original/kInv98CV5GlPxZYIPhuOJKkfILq.jpg",
       "rating": "8.3",
       "type": "TV",
-      "genre": "Thriller"
+      "genre": "Thriller",
+      "details": {
+        "backdropImage": "https://image.tmdb.org/t/p/original/kInv98CV5GlPxZYIPhuOJKkfILq.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-46",
@@ -374,7 +975,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/13/22128.jpg",
       "rating": "8.1",
       "type": "TV",
-      "genre": "Romance"
+      "genre": "Romance",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/13/22128.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     },
     {
       "id": "a-47",
@@ -382,7 +994,18 @@
       "image": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
       "rating": "8.9",
       "type": "TV",
-      "genre": "Thriller"
+      "genre": "Thriller",
+      "details": {
+        "backdropImage": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
+        "format": "TV Series",
+        "releaseYear": null,
+        "synopsis": null,
+        "runtimeMinutes": null,
+        "maturityRating": null,
+        "audio": [],
+        "cast": [],
+        "seasons": []
+      }
     }
   ],
   "sections": [
