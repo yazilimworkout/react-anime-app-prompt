@@ -15,7 +15,10 @@
 <img width="1915" height="931" alt="image" src="https://github.com/user-attachments/assets/7fe4af79-59b5-49bf-b6f3-72bd5adf7c04" />
 
   <img src="https://github.com/user-attachments/assets/4d1feba2-74dc-4476-9392-d7514d785329" alt="YazilimWorkout Anime homepage showing the featured A Silent Voice film and anime discovery cards" width="100%">
-  <img width="1897" height="941" alt="image" src="https://github.com/user-attachments/assets/319f204d-e901-4ea1-b64c-f86b679bfa05" />
+  <img width="1898" height="943" alt="image" src="https://github.com/user-attachments/assets/ab555a03-4dcb-4fda-a66f-c81e619bb36e" />
+
+<img width="1897" height="940" alt="image" src="https://github.com/user-attachments/assets/c5363b51-ee41-41a8-aab3-2bcee036cf9d" />
+
 
 </p>
 
