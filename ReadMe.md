@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="READMEç.md">Türkçe</a> | English
+</p>
+
 <div align="center">
   <h1>YazilimWorkout | Anime</h1>
   <p>A curated anime discovery experience for finding your next favorite series or film.</p>
@@ -20,19 +24,29 @@
 
 ## About
 
-YazilimWorkout | Anime is a dark, cinematic catalog for browsing anime series and films. The homepage puts a featured title up front, then guides visitors through community rankings, new episodes, recommendations, hidden gems, and themed collections. Search and genre filters make it easy to narrow down the catalog, while each title can be opened for more details.
+YazilimWorkout | Anime is a dark, cinematic catalog for browsing 48 anime series and films across 11 curated sections. The homepage opens with a featured title and then flows through horizontal rails of landscape artwork, so visitors can scroll each section independently. Hovering over a card (or tapping it on touch devices) reveals a compact preview, and a larger details dialog shows episodes, season selection, recommendations, and credits.
 
-The project is built as a responsive single-page experience with React and Vite. Sign-in and registration currently use browser local storage, so accounts are for demonstration and remain on the current device.
+The app is a responsive single-page experience built with React, TypeScript, and Vite. It supports light and dark themes that follow the system preference on first visit. Profiles let several people share one account, and each profile keeps its own name and avatar.
 
 ## Features
 
-- Featured anime and film presentations with title details and genre information
-- Searchable catalog with genre filtering
-- Ranked anime cards and curated discovery sections
-- Title details modal with related trailer area
-- Sign-in and registration screens with a profile menu and sign-out
-- Responsive layout for desktop and smaller screens
-- Loading states for catalog content
+- Netflix-style homepage with a featured title and 11 horizontal catalogue rails
+- Top 6 ranking with oversized numerals on the artwork
+- Hover previews on desktop and a details dialog opened by hover, tap, or keyboard
+- Season selector, episode list, "More Like This" recommendations, and an About section in the details dialog
+- Profile picker with add, edit, and switch actions
+- Light and dark themes with persisted preference
+- Animated logo transition between pages
+- Local sign-in and sign-up with salted PBKDF2 password hashing
+- Responsive layout for desktop and mobile, with touch swipe support on every rail
+
+## Routes
+
+- `/signin`: sign-in screen with username or email login
+- `/signup`: registration screen
+- `/`: profile selection followed by the catalogue, available only after sign-in
+
+Signed-out visitors are redirected to `/signin`. Direct access and page refresh work on the authentication routes.
 
 ## Getting started
 
@@ -54,12 +68,20 @@ npm run preview
 
 ## Tech stack
 
-- React for the user interface
+- React and TypeScript for the user interface
 - Vite for development and production builds
-- Tailwind CSS for utility styling
+- Tailwind CSS with shadcn/ui components
+- Redux Toolkit for application state, with redux-persist for storage
+- React Router for navigation
 - TanStack Query for asynchronous data state
-- Lucide React for interface icons
+- Swiper for horizontal catalogue rails
+- Motion for hover preview and transition animations
+- Tabler Icons for interface icons
+
+## Local accounts
+
+Accounts and sessions are stored in the browser's `localStorage`. Passwords are never stored in plain text. They are hashed with salted PBKDF2, and the Redux store holds only the authentication state, never passwords. Profile and watch data are partitioned by account, so one account cannot see another account's profiles or saved titles.
 
 ## Authentication note
 
-Authentication is a front-end demo. User details are stored in the browser's local storage; there is no server-side account system yet. Avoid using real passwords or sensitive information.
+Authentication is a front-end demo. There is no server-side account system yet, and accounts remain on the current device. Avoid using real passwords or sensitive information.
