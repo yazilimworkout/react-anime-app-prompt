@@ -1,6 +1,3 @@
-<p align="center">
-  <a href="READMEç.md">Türkçe</a> | English
-</p>
 
 <div align="center">
   <h1>YazilimWorkout | Anime</h1>
