@@ -2,6 +2,19 @@
 
 Build an anime discovery site with Vite, React, and TypeScript. Do not return only a design or plan: set up the project, implement every page and interaction, then run a production build.
 
+## Required user setup questions
+
+Before creating or changing project files, ask the user these questions one at a time. Each question must use a clear `Type answer` style prompt and wait for the answer before asking the next:
+1. `What should the website be called?` (Type answer)
+2. `What is your Discord invite or profile URL?` (Type answer; allow `skip`)
+3. `What is your YouTube channel URL?` (Type answer; allow `skip`)
+4. `What is your X profile URL?` (Type answer; allow `skip`)
+5. `What is your Instagram profile URL?` (Type answer; allow `skip`)
+6. `What is your Reddit profile or community URL?` (Type answer; allow `skip`)
+
+Use the provided website name throughout the site and README. Use each supplied social URL for its matching icon; if the user answers `skip`, keep that social icon visible as specified, but render it without a link. Do not ask for all answers in one combined prompt.
+
+After the site is implemented, show a dismissible shadcn `Dialog` thanking the user with the exact message: `Thank you for using the YazilimWorkout prompt!` The dialog should appear once on the first visit after setup, with an accessible close button, and must not block the site from being used.
 ## Setup order and completion gate
 
 1. From an empty project root, run `npx shadcn@latest init -t vite` to create a Vite app using React, TypeScript, and Tailwind CSS. When the CLI asks, choose the Vite template, Luma style, `mist` base color, and Tabler icons.
@@ -97,6 +110,7 @@ Build the `/signin` and `/signup` backgrounds from image URLs in the anime datas
 Create `README.md` as the primary English README and `READMEç.md` as its Turkish counterpart. Put `Türkçe | English` language links at the top of each file, linking to the other language. Include a real full-page screenshot of the entire app in both (`docs/screenshots/full-page.png`); do not use only the hero or first viewport. Add a concise product introduction, relevant technology badges, features, screenshot, setup/run/build commands, routes, and local account behavior.
 
 Run the production build and fix errors. Verify every JSON image URL loads in the app; repair broken or inaccessible URLs with appropriate anime artwork. Show a same-size skeleton only during genuine loading; on failure, show the title-based fallback inside the image area rather than a blank tile. Preserve all 11 sections, 102 placements, two feature banners, and all catalogue titles, scores, genres, order, and relationships in JSON; never truncate non-Top-6 sections to six items. Confirm cards have no visible text/metadata strip below the artwork. Every Top 6 numeral must be fully visible inside its image frame: Swiper `overflow:hidden` must not clip any part, and numbers must not extend outside the artwork. Check hover/tap details, both themes, Swiper arrows and hidden scrollbar, mobile touch swipe, no page-level horizontal scrolling, and that every rail aligns to the hero container. In the detail dialog, scroll from the top artwork through More Like This and About; the artwork must scroll with the content inside one hidden-scrollbar wrapper, with no sticky image or nested vertical scroll area. Verify the navbar outer silhouette is a true full pill with semicircular ends, not a rounded rectangle, in both themes.
+
 
 
 
